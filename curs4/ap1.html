@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 60%;
+            margin: 20px auto;
+            border-spacing:0;
+            border-collapse: collapse;
+        }
+        table tr td {
+            border: 2px solid red;
+            padding: 10px;
+            
+        }
+        
+        table tr:nth-child(2n){
+            background-color: red;
+        }
+        table tr:nth-child(2n+1){
+            background-color: rgb(212, 144, 144);
+        }
+        table tr:first-child, table tr:last-child{
+            background-color: rgb(92, 92, 232);
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <h2>Primul tabel</h2>
+<table scope="col">
+    <tr>
+        <td>Nr.</td>
+        <td>Nume</td>
+        <td>Prenume</td>
+        <td style="width:300px">Email</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Poprescu</td>
+        <td>Ion</td>
+        <td>popescu.ion@test.com</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ionescu</td>
+        <td>Dan</td>
+        <td>ionescu.dan@demo.eu</td>
+    </tr>
+    <tr>
+        <td rowspan="2">3</td>
+        <td>Poprescu</td>
+        <td>Ion</td>
+        <td>popescu.ion@test.com</td>
+    </tr>
+    <tr>
+        
+        <td>Ionescu</td>
+        <td>Dan</td>
+        <td>ionescu.dan@demo.eu</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            Total studenti 
+        </td>
+        <td> 4 </td>
+    </tr>
+</table>
+
+</body>
+</html>
