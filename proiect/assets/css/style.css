@@ -63,6 +63,7 @@ body {
   }
   #meniu ul li a{
     text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
     
   }
   #meniu ul li:hover, #meniu ul li.activ{
