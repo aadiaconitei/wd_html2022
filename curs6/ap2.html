@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/ap2.css">
+    </head>
+
+<body>
+    <div class="container">
+        <h2>Formular inregistrare</h2>
+       
+        <form action="http://sdfsdfsfsd.com" method="post">
+            <div class="mb-3">
+                <label for="nume" class="form-label">Nume</label>
+                <input name="nume" type="text" class="form-control" id="nune" aria-describedby="numeHelp" required>
+                <div id="numeHelp" class="form-text">Completeaza numele cu Litere mari</div>
+            </div>
+            <div class="mb-3">
+                <label for="prenume" class="form-label">Prenume</label>
+                <input name="prenume" type="text" class="form-control" id="prenume" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Completeaza adresa de email cu una valide: exemplu@demo.com</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Parola</label>
+                <input name="parola" type="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input name="termeni" type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Sunt de acord cu termeni si conditii</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Trimite</button>
+        </form>
+    </div>
+</body>
+
+</html>

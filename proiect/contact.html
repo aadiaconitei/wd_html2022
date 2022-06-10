@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CSS Grid Site - PMS</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <meta name="description" content="Primul Meu Site Continut pentru SEO">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Linkacademy">
+</head>
+
+<body>
+    <!-- Meniu -->
+    <nav>
+        <ul>
+            <li><a href="acasa.html">Acasa</a></li>
+            <li><a href="portofoliu.html">Portofoliu</a></li>
+            <li><a href="despre.html">Despre noi</a></li>
+            <li><a href="blog.html">Blog </a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Area -->
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Formular de contact</h2>
+                <div class="content-text">
+                    <form action="" method="get">
+                        <label for="orase"> Selecteaza oras</label>
+                        <select name="orase" id="orase">
+                            <option value="">Selecteaza ...</option>
+                            <option value="Timisoara"> Timisoara</option>
+                            <option value="Bucuresti"> Bucuresti</option>
+                            <option value="Brasov"> Brasov</option>
+                            <option value="Cluj"> Cluj</option>
+                            <option value="Arad"> Arad</option>
+                        </select> <br>
+                        <label for="limbaje"> Selecteaza limbaje de programare dorite</label> <br>
+                        <select name="limbaje" id="limbaje" multiple>
+                            <option value="php"> PHP</option>
+                            <option value="java"> Java</option>
+                            <option value="c++"> C++</option>
+                            <option value="javascript">JavaScript</option>
+                        </select>
+
+                        <br> <br>
+                        <label for="limbaje"> Selecteaza limbaje de programare dorite</label> <br>
+                        <input type="checkbox" name="limbaj1" id="limbaj1" value="PHP"> <label for="limbaj1">PHP</label>
+                        <br>
+                        <input type="checkbox" name="limbaj2" id="limbaj2" value="Java"> <label
+                            for="limbaj2">Java</label> <br>
+                        <input type="checkbox" name="limbaj3" id="limbaj3" value="C++"> <label for="limbaj3">C++</label>
+                        <br>
+
+                        <label for="mesaj">Mesaj</label> <br>
+                        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+                        <fieldset>
+                            <legend>
+                                Program cursuri
+                            </legend>
+                            <input type="radio" name="program" id="p1" value="dimineata" checked> <label
+                                for="p1">dimineata</label>
+                            <input type="radio" name="program" id="p2" value="pranz" disabled> <label
+                                for="p2">pranz</label>
+                            <input type="radio" name="program" id="p3" value="seara"> <label for="p3">seara</label>
+                        </fieldset> <br><br>
+
+                        <input type="checkbox" name="termeni" id="termeni"> <label for="termeni"> termeni si
+                            conditii</label>
+                        <input type="checkbox" name="noutati" id="noutati"> <label for="noutati"> Noutati</label>
+                        <input type="submit" value="Trimite datele" name="trimite">
+
+                    </form>
+                </div>
+        </section>
+
+
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>My Project</div>
+        <div>Project By <a href="" target="_blank">LinkAcademy</a></div>
+    </footer>
+</body>
+
+</html>
